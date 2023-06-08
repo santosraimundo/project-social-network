@@ -6,7 +6,32 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    width: 100vw;
+   
+    height: 100vh;
     background-color: black;
+    background-image: url(../image/background/background667x500.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
 
+
+}
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Set my phone for vertical position*/
+section#phone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 250px;
+    height: 503px;
+    background-image: url(../image/phone/phone.png);
+    background-repeat: no-repeat;
 }
