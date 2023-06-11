@@ -8,6 +8,7 @@
 body{
    
     height: 100vh;
+    width: 100vw;
     background-color: black;
     background-image: url(../image/background/background667x500.jpg);
     background-repeat: no-repeat;
@@ -19,8 +20,8 @@ body{
 }
 main{
     position: relative;
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
 }
 
 /*Set my phone for vertical position*/
@@ -35,9 +36,19 @@ section#phone{
     background-image: url(../image/phone/phone.png);
     background-repeat: no-repeat;
 }
-section#phone{
-    
+iframe{
+    position: relative;
+    width: 230px;
+    height: 489px;
+    top: 10px;
+    left: 10px;
 }
-#phone{
 
-}
+
+
+
+
+    
+
+
+
