@@ -7,7 +7,6 @@
 }
 body{
     height: 100vh;
-    width: 100vw;
     background-color: black;
     background-image: url(../image/background/background667x500.jpg);
     background-repeat: no-repeat;
@@ -18,7 +17,7 @@ body{
 main{
     position: relative;
     height: 100vh;
-    width: 100vw;
+   
  
 }
 
