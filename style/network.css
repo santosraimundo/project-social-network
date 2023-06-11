@@ -54,6 +54,7 @@ iframe{
 
 #social-network{
     padding-top: 15px;
+    text-align: center;
    
     
 
@@ -62,6 +63,14 @@ iframe{
     border-radius: 50%;
     width:50px;
     margin: 10px;
+    box-sizing: border-box;
+   
+}
+#social-network img:hover{
+    transition: 1s;
+    transform: translate(-0px, -5px);
+    
+    border: 2px solid green;
 }
 
 
