@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Close all scrollbar*/
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+img{
+    width: 100vw;
+}
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+a{
+    display: block;
+    background-color: #080892;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+a:hover{
+    text-decoration: underline;
+    background-color: #0d0d41;
+}
