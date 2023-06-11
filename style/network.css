@@ -67,9 +67,9 @@ iframe{
    
 }
 #social-network img:hover{
-    transition: 1s;
+    transition: transform 1s , border 0.4s;
     transform: translate(-0px, -5px);
-    border: 2px solid #082908;
+    border: 2px solid white;
 }
 
 
