@@ -49,6 +49,7 @@ section#phone{
     height: 627px;
     background-image: url(../image/phone/frame-iphone.png);
     background-repeat: no-repeat;
+    margin: auto;
 }
 /*Set of iframe for iphone 12
 iframe{
