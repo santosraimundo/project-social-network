@@ -11,7 +11,7 @@
 }
 body{
     height: 100vh;
-    max-width: 100vw;
+    
     background-color: black;
     background-image: url(../image/background/background667x500.jpg);
     background-repeat: no-repeat;
