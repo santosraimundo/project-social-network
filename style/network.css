@@ -5,6 +5,10 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+:root{
+    --font-title: 'Space Mono', monospace;
+}
 body{
     height: 100vh;
     background-color: black;
@@ -14,9 +18,20 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+header{
+    padding: 15px;
+    color: white;
+    text-align: center;
+    background-color: #0d0d41;
+    text-transform: uppercase;
+}
+h1{
+    font-family: var(--font-title);
+
+}
 main{
     position: relative;
-    height: 100vh;
+    height: 900px;
    
  
 }
@@ -51,10 +66,10 @@ iframe{
     left: 22px;
    
 }
-
+/*Set my id social-network*/
 #social-network{
-    padding-top: 15px;
-    text-align: center;
+    padding-top: 10px;
+    text-align: left;
    
     
 
@@ -64,12 +79,29 @@ iframe{
     width:50px;
     margin: 10px;
     box-sizing: border-box;
+    
    
 }
 #social-network img:hover{
-    transition: transform 1s , border 0.4s;
+    transition: transform 1s ;
     transform: translate(-0px, -5px);
-    border: 2px solid white;
+    border: 2.5px solid #ffa500;
+}
+footer{
+    background-color: #080892;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+p{
+   font-family: var(--font-title);
+   text-transform: uppercase;
+
+}
+footer:hover{
+    background-color: #0d0d41;
 }
 
 
