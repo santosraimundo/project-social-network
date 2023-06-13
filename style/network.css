@@ -24,9 +24,12 @@ header{
     text-align: center;
     background-color: #0d0d41;
     text-transform: uppercase;
+    margin: auto;
+    
 }
 h1{
     font-family: var(--font-title);
+    width: 90vw;
 
 }
 main{
