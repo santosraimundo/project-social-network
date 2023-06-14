@@ -11,7 +11,6 @@
 }
 body{
     height: 100vh;
-    
     background-color: black;
     background-image: url(../image/background/background667x500.jpg);
     background-repeat: no-repeat;
@@ -75,6 +74,7 @@ iframe{
 #social-network{
     padding-top: 10px;
     text-align:start;
+    margin: auto;
    
    
     
